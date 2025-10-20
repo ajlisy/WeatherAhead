@@ -5,7 +5,7 @@
   "dateReleased": "2025-10-19",
   "version": "0.1.0",
   "releaseNotes": "Initial release: 8hr Precipitation driver",
-  "documentationLink": "https://github.com/your/repo",
+  "documentationLink": "https://github.com/ajlisy/WeatherAhead",
   "communityLink": "https://community.hubitat.com/",
   "license": "Apache-2.0",
   "drivers": [
@@ -13,7 +13,7 @@
       "id": "weatherahead-8hr-precip",
       "name": "WeatherAhead 8hr Precipitation Driver",
       "namespace": "weatherahead",
-      "location": "https://raw.githubusercontent.com/your/repo/master/WeatherAhead%20Driver.groovy",
+      "location": "https://raw.githubusercontent.com/ajlisy/WeatherAhead/main/WeatherAhead%20Driver.groovy",
       "required": false,
       "version": "0.1.0"
     }
