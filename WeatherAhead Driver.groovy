@@ -42,7 +42,9 @@ void uninstalled() { unschedule() }
 void initialize() {
     Integer mins = safeInterval()
     runIn(2, 'poll')
-    schedule("0 */${mins} * * * ?", poll)
+    // Use runEvery for minute-based intervals instead of cron
+    runEvery(mins * 60, poll)
+    if (debugLogging) log.debug "Scheduled polling every ${mins} minutes (${mins * 60} seconds)"
 }
 
 Integer safeInterval() { Math.max(5, ((settings?.pollIntervalMins as Integer) ?: 15)) }
