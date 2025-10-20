@@ -3,8 +3,8 @@
   "author": "ajlisy",
   "minimumHEVersion": "2.3.0",
   "dateReleased": "2025-10-19",
-  "version": "0.1.0",
-  "releaseNotes": "Initial release: WeatherAhead Driver",
+  "version": "0.1.1",
+  "releaseNotes": "v0.1.1: Fixed polling schedule to use proper minute intervals",
   "documentationLink": "https://github.com/ajlisy/WeatherAhead",
   "communityLink": "https://community.hubitat.com/",
   "license": "Apache-2.0",
@@ -15,7 +15,7 @@
       "namespace": "ajlisy",
       "location": "https://raw.githubusercontent.com/ajlisy/WeatherAhead/main/WeatherAhead%20Driver.groovy",
       "required": false,
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
